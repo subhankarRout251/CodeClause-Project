@@ -1,0 +1,32 @@
+.temp {
+    text-align: center;
+    margin: 0px 10%;
+}
+
+.temp input {
+    text-align: center;
+    font-size: large;
+    padding: auto;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+        rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 150px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.temp .convater div {
+    display: inline-block;
+}
+
+.temp .convater {
+    background-color: rgb(208, 208, 112);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: auto;
+    border-radius: 3px;
+    padding: 7px;
+}
+@media only screen and (max-width: 700px){
+    .temp{
+        margin: 0px 20px;
+    }
+}
